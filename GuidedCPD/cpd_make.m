@@ -21,6 +21,8 @@
 function cpd_make()
 
 psave=pwd; p = mfilename('fullpath'); [pathstr, name, ext, versn] = fileparts(p);
+% If this returns errors here, then just run `mex ___` manually on the
+% command line for every line below.
 
 %%%%%%%%%%%%%%%%%%%% cpd_P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
